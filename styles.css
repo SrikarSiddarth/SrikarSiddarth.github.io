@@ -1,0 +1,13 @@
+.canvas {
+    position: relative;
+    background: #ccc;
+    border: 2px solid #999;
+    padding: 150px;
+    margin: 20px;
+}
+
+.gameButton {
+    background-color: skyblue;
+    position: absolute;
+    padding: 10px;
+}
