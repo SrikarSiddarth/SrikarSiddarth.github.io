@@ -8,9 +8,10 @@
 
 <body>
 	<!-- <p id='demo'></p> -->
+	<!-- <h2>Welcome to Padakeli</h2> -->
 	<script src='script.js'></script>
 	<link rel="stylesheet" href="styles.css">
-	<div id='game' class="canvas">
+	<div id='game' class="puzzle">
 		<button type='button' id='b0' class='gameButton' onmousedown="buttonClick(0)" onmouseover="mouseover(0)">0</button>
 		<button id='b1' class='gameButton' onmousedown="buttonClick(1)" onmouseover="mouseover(1)">1</button>
 		<button id='b2' class='gameButton' onmousedown="buttonClick(2)" onmouseover="mouseover(2)">2</button>
@@ -29,7 +30,8 @@
 		<button id='b15' class='gameButton' onmousedown="buttonClick(15)" onmouseover="mouseover(15)">15</button>
 
 	</div>
-	<!-- <div class="console"></div> -->
+	<div id='displayField' class="displayField"></div>
+	<div id='archive' class="archive"></div>
 	
 
 </body>
